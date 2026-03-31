@@ -1,0 +1,37 @@
+# Dependências
+*.pyc
+__pycache__/
+.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+*.o
+*.elf
+*.hex
+*.bin
+
+# Arquivos grandes (não committar)
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Linters
+.ruff_cache/
+.mypy_cache/
